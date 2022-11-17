@@ -10,7 +10,7 @@ public Calendar (HashSet<Appointment> appointment){
 	this.appointment=appointment;
 }
 public void addAppointment (Appointment appointment) {
-	set.add(appointment);
+	this.appointment.add(appointment);
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
